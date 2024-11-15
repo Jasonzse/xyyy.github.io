@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Video</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        .back-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .nav-menu {
+            list-style-type: none;
+            padding: 10px;
+            margin: 10px;
+            display: inline-flex;
+            gap: 10px;
+        }
+        .nav-menu a {
+            background-color: #2f80b6;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .nav-menu a:hover {
+            background-color: #C0C0C0;
+            text-decoration: underline;
+        }
+        img {
+            width: 200px;
+        }
+        .audio-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 10px; /* Optional: Add padding to move it down if needed */
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop class="back-video">
+        <source src="C:\Users\ADMIN\Downloads\backround vid.mp.4.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+<h1>Welcome to Zse's website</h1>
+        <header style="background-color:; color: white; padding: 40px; text-align: center;">
+            <img src="C:\Users\ADMIN\OneDrive\Desktop\Image.png.png">
+
+            <h1>Jason Matthew T. Zse</h1>
+        </header>
+        <header class="header">
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="https://www.instagram.com/jsn_esz">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/jasonmatthew.zse/">My Profile</a></li>
+                    <li><a href="file:///C:/Users/ADMIN/OneDrive/Desktop/About%20me.html">About Me</a></li>
+                    <li><a href="file:///C:/Users/ADMIN/OneDrive/Desktop/Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h2>ANTIPOLO CITY SENIOR HIGHSCHOOL</h2>
+        <h2>HI! I am glad to see you here! I am Jason From ICT 1102</h2>
+        <h2>"COME TO ME ALL WHO LABOR AND ARE HEAVY LADEN,</h2>
+	<h2>AND I WILL GIVE YOU REST"</h2>
+	<h2>Matthew 11:28</h2>
+        <div class="audio-wrapper">
+            <audio controls autoplay loop>
+                <source src="C:\Users\ADMIN\OneDrive\Desktop\Audio.mp.3.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+</body>
+</html>
